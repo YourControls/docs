@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Welcome!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## What is YourControls?
+YourControls is a program that allows multiple people to connect their simulators into a single shared flight deck. Tasks can be distributed among crewmates, where one can fly the aircraft, while another handles the radios and autopilot. Doing flights on VATSIM and other online networks have never been more immersive.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Discord
+You can join the [YourControls Discord](https://discord.com/invite/UqArVkXV99) to chat with other users, and to ask questions or receive support.
