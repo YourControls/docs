@@ -3,10 +3,38 @@ theme:
   name: material
   logo: assets/images/logo.png
   favicon: assets/images/logo.png
+  palette:
+    scheme: default
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - meta
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 plugins:
   - search:
       lang: en
   - awesome-pages
+
 extra:
   social:
     - icon: fontawesome/brands/discord
