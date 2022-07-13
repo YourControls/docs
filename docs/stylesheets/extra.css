@@ -2,3 +2,9 @@
   scroll-behavior: smooth;
   --md-primary-fg-color: #202124;
 }
+.tick {
+  color: #7cfc00;
+}
+.cross {
+  color: #ff0000;
+}
