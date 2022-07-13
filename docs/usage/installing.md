@@ -27,9 +27,9 @@ The easiest way to install YourControls is to use our [installer](https://github
 
 ---
 ## Manual Install
-1. Download the latest release from [here](https://github.com/sequal32/yourcontrols/releases/latest/download/YourControls.zip)
-2. Extract the files anywhere you'd like
-3. Drag the `YourControls` folder into the MSFS `Community` folder. This is the same folder where you would install a scenery package or an addon aircraft
-4. Launch `YourControls.exe`
+1) Download the latest release from [here](https://github.com/sequal32/yourcontrols/releases/latest/download/YourControls.zip)
+2) Extract the files anywhere you'd like
+3) Drag the `YourControls` folder into the MSFS `Community` folder. This is the same folder where you would install a scenery package or an addon aircraft
+4) Launch `YourControls.exe`
 ![](../assets/images/extract.png)
 ![](../assets/images/drag.png)
