@@ -6,22 +6,19 @@ on:
 
 jobs:
   build:
-    name: Build Documentation
+    name: Build and Deploy Documentation
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Master
         uses: actions/checkout@v2
-
       - name: Set up Python 3.7
         uses: actions/setup-python@v2
         with:
           python-version: "3.x"
-
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip 
           pip install -r requirements.txt
-
-      - name: Build MKDocs
+      - name: Deploy
         run: |
-          mkdocs build -f mkdocs.yml
+          git pull mkdocs gh-deploy

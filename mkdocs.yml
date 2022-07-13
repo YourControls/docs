@@ -1,4 +1,5 @@
 site_name: YourControls Docs
+
 theme:
   name: material
   custom_dir: overrides
