@@ -1,3 +1,4 @@
 nav:
   - Welcome!: index.md
   - Getting Started: info
+  - Usage: usage

@@ -8,3 +8,12 @@
 .cross {
   color: #ff0000;
 }
+.md-typeset a {
+  color: #1ad4ff;
+}
+.md-typeset a:hover {
+  color: #01bfe6;
+}
+.md-top:hover {
+  background-color: #01bfe6;
+}
